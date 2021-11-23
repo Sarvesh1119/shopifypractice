@@ -9,8 +9,9 @@
 
 {% schema %}
 {
-    "name": "t:sections.text.name",
+    "name": "About author",
     "tag": "section",
+    "class": "spaced-section",
     "blocks": [
         {
             "name": "author details",
@@ -20,10 +21,20 @@
                 "type": "text",
                 "id": "unique",
                 "default": "Say something about the author",
-                "label":"sss"
+                "label":"Description about author"
                 }
             ]
         }
-    ]
+    ],
+    "presets": [
+    {
+      "name": "t:sections.text.presets.name",
+       "blocks": [
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
 }
 {% endschema  %}

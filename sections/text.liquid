@@ -1,0 +1,29 @@
+<div>
+    {% for block in section.blocks %}
+        {% case block.type %}
+            {% when 'text' %}
+                <h2>{{ block.settings.unique | escape}}<h2>
+        {%endcase%}
+    {%endfor%}
+</div>
+
+{% schema %}
+{
+    "name": "about author",
+    "tag": "section",
+    "blocks": [
+        {
+            "name": "author details",
+            "type": "text",
+            "settings":[
+                {
+                "type": "text",
+                "id": "unique",
+                "default": "Say something about the author",
+                "label":"sss"
+                }
+            ]
+        }
+    ]
+}
+{% endschema  %}

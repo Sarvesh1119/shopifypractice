@@ -1,4 +1,5 @@
 <div>
+    <h1>{{ section.settings.unique1 | escape }}</h1>
     {% for block in section.blocks %}
         {% case block.type %}
             {% when 'text' %}
@@ -12,6 +13,14 @@
     "name": "About author",
     "tag": "section",
     "class": "spaced-section",
+    "settings": [
+      {
+        "type":"text",
+        "id":"unique1",
+        "label":"Heading",
+        "default":"This is a heading"
+      }
+    ],
     "blocks": [
         {
             "name": "author details",

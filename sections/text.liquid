@@ -4,7 +4,7 @@
         {% case block.type %}
             {% when 'text' %}
                 <img 
-                 src="{{block.settings.unique2 }}"
+                 src="{{block.settings.unique2 | img_url: '1500x'}}"
                  width="{{block.settings.unique2.width}}" 
                  height="{{block.settings.unique2.height}}" 
                  loading="lazy">

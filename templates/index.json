@@ -190,7 +190,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "unique": "Hello buddy"
+            "unique": "Hello buddy",
+            "unique2": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg"
           }
         }
       },

@@ -1,6 +1,7 @@
 <div>
     <h1>{{ section.settings.unique1 | escape }}</h1>
     {% for block in section.blocks %}
+  		{%render block%}
         {% case block.type %}
             {% when 'text' %}
                 <img 

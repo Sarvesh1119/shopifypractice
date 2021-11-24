@@ -180,8 +180,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
+        "button_link": ""
       }
     },
     "text": {

@@ -1996,6 +1996,9 @@
           "name": "desc",
           "settings": {
             "text": {
+              "label": "Text"
+            },
+            "unique2": {
               "label": "Image"
             }
           }

@@ -1988,7 +1988,7 @@
       "name": "Text",
       "settings": {
         "text": {
-          "label": "text"
+          "label": "heading"
         }
       },
       "blocks": {

@@ -1983,6 +1983,30 @@
       "presets": {
         "name": "Video"
       }
+    },
+    "text": {
+      "name": "Text",
+      "settings": {
+        "text": {
+          "label": "text"
+        }
+      },
+      "blocks": {
+        "text": {
+          "name": "text",
+          "settings": {
+            "text": {
+              "label": "Text"
+            },
+            "image_picker": {
+              "label": "Image"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Page"
+      }
     }
   }
 }

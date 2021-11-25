@@ -1993,7 +1993,7 @@
       },
       "blocks": {
         "text": {
-          "name": "desc",
+          "name": "Paragraph",
           "settings": {
             "text": {
               "label": "Text"

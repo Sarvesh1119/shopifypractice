@@ -166,12 +166,22 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "549d1114-a7a9-4a1f-a445-6d354f84737b": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "549d1114-a7a9-4a1f-a445-6d354f84737b"
       ],
       "settings": {
         "title": "Multicolumn",
@@ -191,12 +201,18 @@
           "type": "text",
           "settings": {
             "unique": "Hello buddy",
-            "unique2": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg"
+            "unique2": "hello"
+          }
+        },
+        "text1": {
+          "type": "text1",
+          "settings": {
           }
         }
       },
       "block_order": [
-        "text"
+        "text",
+        "text1"
       ],
       "settings": {
         "unique1": "Main heading"

@@ -1983,6 +1983,33 @@
       "presets": {
         "name": "Video"
       }
+    },
+    "text": {
+      "name": "newText",
+      "settings": {
+        "text": {
+          "label": "Heading"
+        }
+      },
+      "blocks": {
+        "text": {
+          "name": "Paragraph",
+          "settings": {
+            "unique": {
+              "label": "Text"
+            },
+            "unique2": {
+              "label": "Image"
+            }
+          }
+        },
+        "text1": {
+          "name": "paragraph2"
+        }
+      },
+      "presets": {
+        "name": "Text"
+      }
     }
   }
 }

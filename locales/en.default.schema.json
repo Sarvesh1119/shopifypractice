@@ -1996,9 +1996,6 @@
           "name": "desc",
           "settings": {
             "text": {
-              "label": "Text"
-            },
-            "image_picker": {
               "label": "Image"
             }
           }

@@ -197,19 +197,22 @@
     "text": {
       "type": "text",
       "blocks": {
-        "block-1": {
+        "text": {
           "type": "text",
           "settings": {
             "unique": "Hello buddy",
             "unique2": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg"
           }
         },
-        "block-2": {
-          "type": "text",
+        "text1": {
+          "type": "text1",
           "settings": {
           }
         }
       },
+      "block_order": [
+        "text"
+      ],
       "settings": {
         "unique1": "Main heading"
       }

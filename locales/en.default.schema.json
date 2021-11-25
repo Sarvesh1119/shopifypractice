@@ -1984,6 +1984,30 @@
         "name": "Video"
       }
     },
+    "text-1": {
+      "name": "Text",
+      "settings": {
+        "text": {
+          "label": "Heading"
+        }
+      },
+      "blocks": {
+        "text": {
+          "name": "Paragraph",
+          "settings": {
+            "unique": {
+              "label": "Text"
+            },
+            "unique2": {
+              "label": "Image"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Page"
+      }
+    },
     "text": {
       "name": "newText",
       "settings": {

@@ -1985,7 +1985,7 @@
       }
     },
     "text": {
-      "name": "Text",
+      "name": "newText",
       "settings": {
         "text": {
           "label": "Heading"

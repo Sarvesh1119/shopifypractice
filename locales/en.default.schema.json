@@ -1992,8 +1992,8 @@
         }
       },
       "blocks": {
-        "text": {
-          "name": "Paragraph",
+        "block-1": {
+          "name": "Paragraph-1",
           "settings": {
             "unique": {
               "label": "Text"
@@ -2003,7 +2003,7 @@
             }
           }
         },
-        "text1": {
+        "block-2": {
           "name": "paragraph2"
         }
       },

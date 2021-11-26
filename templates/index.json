@@ -197,22 +197,22 @@
     "text": {
       "type": "text",
       "blocks": {
-        "text": {
-          "type": "text",
+        "block-1": {
+          "type": "block-1",
           "settings": {
             "unique": "Hello buddy",
             "unique2": "hello"
           }
         },
-        "text1": {
-          "type": "text1",
+        "block-2": {
+          "type": "block-2",
           "settings": {
           }
         }
       },
       "block_order": [
-        "text",
-        "text1"
+        "block-1",
+        "block-2"
       ],
       "settings": {
         "unique1": "Main heading"

@@ -2,20 +2,15 @@
     <h1>{{ section.settings.unique1 | escape }}</h1>
     {% for block in section.blocks %}
         {% case block.type %}
-            {% when 'text' %}
-                <img 
-                 src="{{block.settings.unique2 }}"
-                 width="{{block.settings.unique2.width}}" 
-                 height="{{block.settings.unique2.height}}" 
-                 loading="lazy">
-                <h2>{{ block.settings.unique | escape}}</h2>
-        {%endcase%}
-    {%endfor%}
+            {% when 'text1' %}
+               <h2>{{block.settings.unique | escape}}</h2>
+        {% endcase %}
+    {% endfor %}
 </div>
 
 {% schema %}
 {
-    "name": "About author",
+    "name": "t:sections.text.name",
     "tag": "section",
     "class": "spaced-section",
     "settings": [
@@ -28,8 +23,8 @@
     ],
     "blocks": [
         {
-            "name": "author details",
             "type": "text",
+            "name": "t:sections.text.blocks.text.name",
             "settings":[
                 {
                   "type": "text",
@@ -38,11 +33,24 @@
                   "label":"Description about author"
                 },
                 {
-                  "type": "image_picker",
+                  "type": "text",
                   "id": "unique2",
-                  "label": "Image"
+                  "label": "Image",
+                  "default":"Hello world"
                 }   
             ]
+        },
+        {
+          "type":"text1",
+          "name":"t:sections.text.blocks.text1.name",
+          "settings":[
+            {
+              "type":"text",
+              "id":"unique",
+              "default":"some text",
+              "label":"t:sections.text.blocks.text1.settings.unique3.label"
+            }
+          ]
         }
     ],
     "presets": [

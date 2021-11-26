@@ -1993,7 +1993,7 @@
       },
       "blocks": {
         "text": {
-          "name": "Paragraph",
+          "name": "block-1",
           "settings": {
             "unique": {
               "label": "Text"
@@ -2003,9 +2003,14 @@
             }
           }
         },
-        "text1": {
-          "name": "paragraph2"
-        }
+        "text1":{
+          "name": "block-2",
+          "settings":{
+            "unique3":{
+                "label":" hey there!"
+              }
+            }
+          }
       },
       "presets": {
         "name": "Text"

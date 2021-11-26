@@ -208,6 +208,10 @@
           }
         }
       },
+      "block_order": [
+        "text",
+        "text1"
+      ],
       "settings": {
         "unique1": "Main heading"
       }

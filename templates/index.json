@@ -197,8 +197,8 @@
     "text": {
       "type": "text",
       "blocks": {
-        "block-1": {
-          "type": "block-1",
+        "text": {
+          "type": "text",
           "settings": {
           }
         },
@@ -209,8 +209,8 @@
         }
       },
       "block_order": [
-        "block-1",
-        "block-2"
+        "text",
+        "text1"
       ],
       "settings": {
       }

@@ -24,8 +24,8 @@
 @media screen and (max-width: 600px) {
     .bb {
         text-align: center;
-        padding-left:150px;
-        padding-right:100px;
+        padding-left:80px;
+        padding-right:70px;
         font-size:15px;
         line-height: 20px;
         opacity: 0.9

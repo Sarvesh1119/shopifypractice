@@ -1,0 +1,41 @@
+{{ 'group1.css' | asset_url | stylesheet_tag }}
+
+
+
+{%- for block in section.blocks-%}
+    {%- case block.type -%}
+        {%- when 'block-1'-%}
+            <div class="main">
+                <h1 class="aa">{{block.settings.unique8}}</h1>
+                <h3 class="bb">{{block.settings.unique9}}</h3>
+            </div>
+    {%- endcase -%}
+{%- endfor-%}
+
+
+{%- schema -%}
+{
+    "name":"t:sections.rtext.name",
+    "tag":"section",
+    "blocks":[
+        {
+            "type":"block-1",
+            "name":"t:sections.rtext.blocks.block-1.name",
+            "settings":[
+                {
+                    "type":"richtext",
+                    "id":"unique8",
+                    "label":"t:sections.rtext.blocks.block-1.settings.unique1.label",
+                    "default":"<p>Rich text</p>"
+                },
+                {
+                    "type":"richtext",
+                    "id":"unique9",
+                    "label":"t:sections.rtext.blocks.block-1.settings.unique2.label",
+                    "default":"<p>Use this section to share information about your brand with your customers.Describe a product, share announcements, or welcome customers to your store.</P>"
+                }
+            ]
+        }
+    ]
+}
+{%- endschema-%}

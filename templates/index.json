@@ -215,6 +215,21 @@
       "settings": {
         "unique1": "Main heading"
       }
+    },
+    "rtext":{
+      "type":"rtext",
+      "blocks":{
+        "block-1":{
+        "type":"block-1",
+        "settings":{
+          "unique8":"Heading",
+          "unique9":"Some rich text"
+        }
+        }
+      },
+      "block_order":[
+        "block-1"
+      ]
     }
   },
   "order": [
@@ -224,6 +239,7 @@
     "collage",
     "video",
     "multi_column",
-    "text"
+    "text",
+    "rtext"
   ]
 }

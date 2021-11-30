@@ -9,16 +9,29 @@
     font-weight: bold;
     text-align: center;
 }
-
-.bb{
-    text-align: center;
-    padding-left:350px;
-    padding-right:300px;
-    font-size:15px;
-    line-height: 40px;
-    opacity: 0.9
-
+@media screen and (min-width: 600px) {
+    .bb {
+      text-align: center;
+      padding-left:350px;
+      padding-right:300px;
+      font-size:15px;
+      line-height: 40px;
+      opacity: 0.9
+    }
+  }
+  
+  /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    .bb {
+        text-align: center;
+        padding-left:350px;
+        padding-right:300px;
+        font-size:5px;
+        line-height: 40px;
+        opacity: 0.9
+    }
 }
+
 
 
 .main{

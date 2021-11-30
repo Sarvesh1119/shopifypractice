@@ -1,5 +1,25 @@
+{% stylesheet %}
+.mystyle{
+  color:blue;
+  height:100px;
+  width:100%;
+  background-color:red;
+  opacity:0.8;
+  border-style:dotted;
+  border-radius:25px;
+  border-color:yellow;
+  border-width:10px;
+  text-align:center;
+  outline-style:solid;
+  outline-offset:15px;
+  outline-color:blue;
+  text-decoration:underline;
+  text-transform:capitalize;
+  text-shadow:2px 2px 5px white
+}
+{% endstylesheet %}
 <div>
-    <h1>{{ section.settings.unique1 | escape }}</h1>
+    <h1 class="mystyle">{{ section.settings.unique1 | escape }}</h1>
     {% for block in section.blocks %}
         {% case block.type %}
             {% when 'text1' %}

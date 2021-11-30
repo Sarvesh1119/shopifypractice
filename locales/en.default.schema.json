@@ -2003,14 +2003,14 @@
             }
           }
         },
-        "text1":{
+        "text1": {
           "name": "block-2",
-          "settings":{
-            "unique3":{
-                "label":" hey there!"
-              }
+          "settings": {
+            "unique3": {
+              "label": " hey there!"
             }
           }
+        }
       },
       "presets": {
         "name": "Text"

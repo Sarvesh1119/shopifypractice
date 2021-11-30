@@ -202,9 +202,9 @@
           "settings": {
           }
         },
-        "text1":{
-          "type":"text1",
-          "settings":{
+        "text1": {
+          "type": "text1",
+          "settings": {
           }
         }
       },
@@ -213,6 +213,7 @@
         "text1"
       ],
       "settings": {
+        "unique1": "Main heading"
       }
     }
   },

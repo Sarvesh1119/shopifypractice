@@ -2017,7 +2017,7 @@
       }
     },
     "rtext":{
-      "type":"rtext",
+      "name":"Rich text- 2",
       "blocks":{
         "block-1":{
           "name":"Heading",

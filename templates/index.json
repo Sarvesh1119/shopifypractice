@@ -216,18 +216,20 @@
         "unique1": "Main heading"
       }
     },
-    "rtext":{
-      "type":"rtext",
-      "blocks":{
-        "block-1":{
-        "type":"block-1",
-        "settings":{
-        }
+    "rtext": {
+      "type": "rtext",
+      "blocks": {
+        "block-1": {
+          "type": "block-1",
+          "settings": {
+          }
         }
       },
-      "block_order":[
+      "block_order": [
         "block-1"
-      ]
+      ],
+      "settings": {
+      }
     }
   },
   "order": [

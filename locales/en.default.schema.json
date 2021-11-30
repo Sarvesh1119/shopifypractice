@@ -2016,17 +2016,17 @@
         "name": "Text"
       }
     },
-    "rtext":{
-      "name":"Rich text- 2",
-      "blocks":{
-        "block-1":{
-          "name":"Heading",
-          "settings":{
-            "unique8":{
-              "label":"Heading"
+    "rtext": {
+      "name": "Rich text- 2",
+      "blocks": {
+        "block-1": {
+          "name": "Heading",
+          "settings": {
+            "unique8": {
+              "label": "Heading"
             },
-            "unique9":{
-              "label":"Paragraph"
+            "unique9": {
+              "label": "Paragraph"
             }
           }
         }

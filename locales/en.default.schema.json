@@ -2015,6 +2015,22 @@
       "presets": {
         "name": "Text"
       }
+    },
+    "rtext":{
+      "type":"rtext",
+      "blocks":{
+        "block-1":{
+          "name":"Heading",
+          "settings":{
+            "unique8":{
+              "label":"Heading"
+            },
+            "unique9":{
+              "label":"Paragraph"
+            }
+          }
+        }
+      }
     }
   }
 }

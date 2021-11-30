@@ -45,7 +45,7 @@
 }
 
 
-
+@media screen and (min-width: 600px){
 .main{
     
     height: 250px;
@@ -53,4 +53,15 @@
     margin: 25px 100px 75px 20px;
     border-radius: 15px;
     background-color:rgba(204, 255, 204,0.2);
+}
+}
+@media screen and (max-width: 600px){
+  .main{
+    
+    height: 250px;
+    width:87%;
+    margin: 25px 100px 75px 20px;
+    border-radius: 15px;
+    background-color:rgba(204, 255, 204,0.2);
+}
 }

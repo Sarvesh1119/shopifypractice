@@ -1,16 +1,16 @@
 @media screen and (min-width:400px){
-    body{
+    .bb{
         background-color:yellow
     }
 }
 
 @media screen and (min-width:600px){
-    body{
+    .bb{
         background-color:red
     }
 }
 @media screen and (min-width:900px){
-    body{
+    .bb{
         background-color:purple
     }
 }

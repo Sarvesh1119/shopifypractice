@@ -57,7 +57,7 @@
 
 @media screen and (orientation: landscape){
     .bb{
-      text-align: left;
+      text-align: center;
       padding-left:05px;
       padding-right:10px;
       font-size:15px;

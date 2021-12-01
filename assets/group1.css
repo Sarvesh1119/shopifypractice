@@ -55,7 +55,7 @@
 
 
 
-@media screen and  (orientation: landscape){
+@media screen and (max-width:750px) (orientation: landscape){
     .bb{
       text-align: left;
       padding-left:20px;

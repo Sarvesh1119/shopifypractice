@@ -230,6 +230,19 @@
       ],
       "settings": {
       }
+    },
+    "mysection2":{
+      "type":"mysection2",
+      "blocks":{
+        "block-1":{
+          "type":"block-1",
+          "settings":{
+          }
+        }
+      },
+      "block_order":[
+        "block-1"
+      ]
     }
   },
   "order": [
@@ -240,6 +253,7 @@
     "video",
     "multi_column",
     "text",
-    "rtext"
+    "rtext",
+    "mysection2"
   ]
 }

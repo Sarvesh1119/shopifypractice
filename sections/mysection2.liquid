@@ -1,0 +1,52 @@
+{{ 'section2.css' | asset_url | stylesheet_tag }}
+{%- for block in section.blocks-%}
+  {%- case block.type -%}
+    {%- when 'block-1'-%}
+      <div id="outer-border">
+        <div id="main">
+          <div id="sub-main1">
+            <div id="sub-block">
+              <h2 id="heading">{{block.settings.unique10}}</h2>
+              <a id="shop-button" href={{block.settings.unique12}}>{{block.settings.unique11}}</a>
+            </div>
+          </div>
+          <div id="sub-main2">
+          </div>
+        </div>
+      </div>
+  {%- endcase -%}
+{%- endfor -%}
+
+
+{% schema %}
+{
+    "name": "Sectionname",
+    "tag":"section",
+    "blocks":[
+      {
+        "type":"block-1",
+        "name":"t:sections.mysection2.blocks.block-1.name",
+        "settings":[
+          {
+            "type":"richtext",
+            "id":"unique10",
+            "label":"t:sections.mysection2.blocks.block-1.settings.unique10.label",
+            "default":"<p>Example collection tittle</p>"
+          },
+          {
+            "type":"text",
+            "id":"unique11",
+            "label":"t:sections.mysection2.blocks.block-1.settings.unique11.label",
+            "default":"Shop now"
+          },
+          {
+            "type":"url",
+            "id":"unique12",
+            "label":"t:sections.mysection2.blocks.block-1.settings.unique12.label"
+          }
+        ]
+      }
+    ]
+}
+{% endschema %}
+

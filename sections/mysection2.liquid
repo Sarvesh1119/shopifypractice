@@ -2,7 +2,7 @@
 {%- for block in section.blocks-%}
   {%- case block.type -%}
     {%- when 'block-1'-%}
-      <div id="outer-border">
+      <div id="outer-border" {{ block.shopify_attributes }}>
         <div id="main">
           <div id="sub-main1">
             <div id="sub-block">
@@ -11,6 +11,25 @@
             </div>
           </div>
           <div id="sub-main2">
+            {% liquid %}
+            {%-assign a=0 -%}
+              {%- for collection in collections-%}
+                {%- if collection.title == 'Electronics' -%}
+                  {% assign array="" %}
+                  {%- for product in collection.products -%}
+                    {% for image in product.images %}
+                      {%- if image.src != blank -%}
+                        {%- if a==1 -%}
+                          <img src="{{ image.src | img_url: '1500x' }}" loading="lazy" width=400 height=350>
+                          {%- assign a=0 -%}
+                        {%- endif -%}
+                        {% assign array= array | append: image.src | append: " " %}
+                      {% endif %}
+                    {% endfor %}
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
+            {% assign array = array | split : " " %}
           </div>
         </div>
       </div>

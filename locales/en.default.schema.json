@@ -2032,20 +2032,20 @@
         }
       }
     },
-    "mysection2":{
-      "name":"collection",
-      "blocks":{
-        "block-1":{
-          "name":"Content",
-          "settings":{
-            "unique10":{
-              "label":"Rich text"
+    "mysection2": {
+      "name": "collection",
+      "blocks": {
+        "block-1": {
+          "name": "Content",
+          "settings": {
+            "unique10": {
+              "label": "Rich text"
             },
-            "unique11":{
-              "label":"Button label"
+            "unique11": {
+              "label": "Button label"
             },
-            "unique12":{
-              "label":"Button URL"
+            "unique12": {
+              "label": "Button URL"
             }
           }
         }

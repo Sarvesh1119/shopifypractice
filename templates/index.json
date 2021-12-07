@@ -200,11 +200,14 @@
         "text": {
           "type": "text",
           "settings": {
+            "unique": "Say something about the author",
+            "unique2": "Hello world"
           }
         },
         "text1": {
           "type": "text1",
           "settings": {
+            "unique": "some text"
           }
         }
       },
@@ -222,6 +225,8 @@
         "block-1": {
           "type": "block-1",
           "settings": {
+            "unique8": "<p>Rich text<\/p>",
+            "unique9": "<p>Use this section to share information about your brand with your customers.Describe a product, share announcements, or welcome customers to your store.<\/P>"
           }
         }
       },
@@ -231,18 +236,23 @@
       "settings": {
       }
     },
-    "mysection2":{
-      "type":"mysection2",
-      "blocks":{
-        "block-1":{
-          "type":"block-1",
-          "settings":{
+    "mysection2": {
+      "type": "mysection2",
+      "blocks": {
+        "block-1": {
+          "type": "block-1",
+          "settings": {
+            "unique10": "<p>Example collection tittle<\/p>",
+            "unique11": "shop now",
+            "unique12": "shopify:\/\/collections\/all"
           }
         }
       },
-      "block_order":[
+      "block_order": [
         "block-1"
-      ]
+      ],
+      "settings": {
+      }
     }
   },
   "order": [

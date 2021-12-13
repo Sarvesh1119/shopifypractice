@@ -226,7 +226,7 @@
           "type": "block-1",
           "settings": {
             "unique8": "<p>Rich text<\/p>",
-            "unique9": "<p>Use this section to share information about your brand with your customers.Describe a product, share announcements, or welcome customers to your store.<\/P>"
+            "unique9": "<p>Use this section to share information about your brand with your customers.Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
@@ -242,7 +242,7 @@
         "block-1": {
           "type": "block-1",
           "settings": {
-            "unique10": "<p>Example collection tittle<\/p>",
+            "unique10": "<p>Example<\/p>",
             "unique11": "shop now",
             "unique12": "shopify:\/\/collections\/all"
           }
